@@ -3,15 +3,15 @@
 //using namespace std;
 ////typedef unsigned int* ui_ptr;
 //typedef void (*FP1)(int);
-//typedef void (Point::*FP2)(int); // Å¬·¡½ºÀÇ ¸â¹öÇÔ¼ö ÂüÁ¶¿ë ÇÔ¼öÆ÷ÀÎÅÍ
+//typedef void (Point::*FP2)(int); // í´ë˜ìŠ¤ì˜ ë©¤ë²„í•¨ìˆ˜ ì°¸ì¡°ìš© í•¨ìˆ˜í¬ì¸í„°
 //void Area(const Point& pt) {
 //	int area = pt.GetX() * pt.GetY();
-//	cout << "0, 0°ú ÀÌ Á¡ÀÌ ÀÌ·ç´Â »ç°¢ÇüÀÇ ¸éÀû = " << area << endl;
+//	cout << "0, 0ê³¼ ì´ ì ì´ ì´ë£¨ëŠ” ì‚¬ê°í˜•ì˜ ë©´ì  = " << area << endl;
 //}
 //void main() {
 //	Point pt(100, 100);
 //	//FP1 fp1 = &Point::SetY;
-//	FP2 fp2 = &Point::SetY; // PointÅ¬·¡½ºÀÇ SetY ¸â¹öÇÔ¼öÀÇ ÁÖ¼Ò¸¦ Àü´Ş
+//	FP2 fp2 = &Point::SetY; // Pointí´ë˜ìŠ¤ì˜ SetY ë©¤ë²„í•¨ìˆ˜ì˜ ì£¼ì†Œë¥¼ ì „ë‹¬
 //	(pt.*fp2)(50);
 //
 //	//Area(pt);

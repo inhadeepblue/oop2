@@ -4,7 +4,7 @@ using namespace std;
 
 DocWriter::DocWriter(){
 	_fileName = "NoName.txt";
-	_content = "³Ã¹«";
+	_content = "ëƒ‰ë¬´";
 }
 DocWriter::DocWriter(const string& fileName, const string& content){
 	_fileName = fileName;
@@ -19,7 +19,7 @@ void DocWriter::SetContent(const string& content){
 	_content = content;
 }
 void DocWriter::Write(){
-	ofstream of(_fileName.c_str()); // ÆÄÀÏ open
-	of << "# Content #\n\n"; // Çì´õ ¾²±â
-	of << _content;// ÆÄÀÏ ¾²±â
+	ofstream of(_fileName.c_str()); // íŒŒì¼ open
+	of << "# Content #\n\n"; // í—¤ë” ì“°ê¸°
+	of << _content;// íŒŒì¼ ì“°ê¸°
 }

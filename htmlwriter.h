@@ -8,7 +8,7 @@ public:
 	HTMLWriter(const string& fileName, const string& content);
 	~HTMLWriter(void);
 
-	void Write();// html Æ÷¸ËÀ¸·Î ÀúÀåÇÒ ¾²±â ¸Ş¼­µå (¿À¹ö¶óÀÌµù)
+	void Write();// html í¬ë§·ìœ¼ë¡œ ì €ì¥í•  ì“°ê¸° ë©”ì„œë“œ (ì˜¤ë²„ë¼ì´ë”©)
 	void SetFont(const string& fontName, int fontSize, const string& fontColor);
 
 protected:

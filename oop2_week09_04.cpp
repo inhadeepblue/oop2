@@ -2,17 +2,17 @@
 #include "htmlwriter.h"
 
 void main() {
-	HTMLWriter hw("gta.html", "Æ®·¹¹ö ÇÊ¸³½º"); // ºÎ¸ğ Å¬·¡½ºÀÇ »ı¼ºÀÚ È°¿ë
-	hw.Write(); // ÀÚ½Ä Å¬·¡½ºÀÇ ¿À¹ö¶óÀÌµù µÈ html ¾²±â ¸Ş¼­µå
+	HTMLWriter hw("gta.html", "íŠ¸ë ˆë²„ í•„ë¦½ìŠ¤"); // ë¶€ëª¨ í´ë˜ìŠ¤ì˜ ìƒì„±ì í™œìš©
+	hw.Write(); // ìì‹ í´ë˜ìŠ¤ì˜ ì˜¤ë²„ë¼ì´ë”© ëœ html ì“°ê¸° ë©”ì„œë“œ
 
 	//DocWriter dw;
 	//dw.Write();
 
 	//DocWriter dw;
 	//dw.SetFileName("exam.txt");
-	//dw.SetContent("½ÃÇè Àßº½!");
+	//dw.SetContent("ì‹œí—˜ ì˜ë´„!");
 	//dw.Write();
 
-	//DocWriter dw("assignment.txt","°úÁ¦ ¸¹´Ù~~");
+	//DocWriter dw("assignment.txt","ê³¼ì œ ë§ë‹¤~~");
 	//dw.Write();
 }
