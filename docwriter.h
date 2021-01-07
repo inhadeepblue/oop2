@@ -10,9 +10,10 @@ public:
 
 	void SetFileName(const string& fileName);
 	void SetContent(const string& content);
-	void Write();
+	virtual void Write();
 
 protected:
+//private:
 	string _fileName;
 	string _content;
 };
